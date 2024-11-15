@@ -1,0 +1,11 @@
+{
+  "name": "Share PR Extensions",
+  "description": "Copy PR link Extension",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab"],
+  "action": {
+    "default_popup": "copyPR.html",
+    "default_icon": "copyPR.png"
+  }
+}
